@@ -1,0 +1,22 @@
+{
+  "name": "learning-ts",
+  "version": "1.0.0",
+  "description": "simple projects",
+  "main": "index.js",
+  "scripts": {
+    "trendyol": "tsc ./trendyol/index.ts --resolveJsonModule && node ./trendyol/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmerAtayilmaz/learning-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmerAtayilmaz/learning-typescript/issues"
+  },
+  "homepage": "https://github.com/OmerAtayilmaz/learning-typescript#readme",
+  "devDependencies": {
+    "@types/node": "^18.8.5"
+  }
+}

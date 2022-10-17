@@ -10,7 +10,7 @@
     "target": "ES6",
     "outDir": "dist",
     "rootDir": "src",
-    "noUnusedLocals": true,
-    "noUnusedParameters": true
+    //"noUnusedLocals": true, yoksa her fonksiyonu,parametreyyi vs. kullanmak zorunda kalırız bu yuzden yoruma alındı
+    //"noUnusedParameters": true
    }
 }

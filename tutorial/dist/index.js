@@ -14,7 +14,7 @@
  outDir: çıktı klasörümüz
 */
 // @ts-ignore
-asdsadsad;
+//asdsadsad
 /* typescript kodunu bir satır için ignore eder. */
 //import * as fs from "fs";
 //boyle kullanmamızı saglayan esModuleInterop:true

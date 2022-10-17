@@ -31,3 +31,7 @@ arr.push(25, false, 25, 25, 25, false, "Hello");
 //yoksa tanımlanmamışsa hata verir
 let a;
 a === null || a === void 0 ? void 0 : a.toExponential();
+//tuples
+const myDizi = ["Ahmet", "Terliksi", 25];
+myDizi[2].toExponential(); //sayıya ayrı!
+myDizi[1].charAt(3); //stringe ayrı method gelıyor

@@ -15,7 +15,7 @@
 
 
 // @ts-ignore
-asdsadsad
+//asdsadsad
 
 /* typescript kodunu bir satır için ignore eder. */
 

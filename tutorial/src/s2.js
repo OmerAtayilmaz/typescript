@@ -1,5 +1,4 @@
-"use strict";
-let myname = "Jonas";
+var myname = "Jonas";
 function check() {
     myname = 25;
     myname = "adasdasd";
@@ -11,23 +10,23 @@ function check() {
         //myname.toLowerCase();
     }
 }
-let b = 25;
+var b = 25;
 if (b instanceof Number) {
     console.log("HELL YEAH?");
 }
 //OBJECT
-const Person = {
+var Person = {
     isim: "Ahmet",
     kanal: "TRT",
     bilmem: "C"
 };
-let res = true;
+var res = true;
 res = 25;
-const dizi = []; //string dizisi
-const dizi2 = []; // string dizisi
-const dizi3 = [];
-const arr = [];
+var dizi = []; //string dizisi
+var dizi2 = []; // string dizisi
+var dizi3 = [];
+var arr = [];
 arr.push(25, false, 25, 25, 25, false, "Hello");
 //yoksa tanımlanmamışsa hata verir
-let a;
+var a;
 a === null || a === void 0 ? void 0 : a.toExponential();

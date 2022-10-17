@@ -45,3 +45,18 @@ const dizi:string[]=[];//string dizisi
 const dizi2=[] as string[]; // string dizisi
 
 const dizi3:(number|boolean|string)[]=[];
+
+const arr=[] as Array<string|boolean|number>;
+
+arr.push(25,false,25,25,25,false,"Hello");
+
+
+//yoksa tanımlanmamışsa hata verir
+let a:number|undefined;
+
+a?.toExponential();
+
+//tuples
+const myDizi:[string,string,number]=["Ahmet","Terliksi",25];
+myDizi[2].toExponential();//sayıya ayrı!
+myDizi[1].charAt(3); //stringe ayrı method gelıyor

@@ -1,0 +1,14 @@
+{
+   "compilerOptions":{
+    "lib":["ESNext"],
+    "strict": true,
+    "module":"CommonJS",
+    "allowJs": false,
+    "alwaysStrict": true,
+    "moduleResolution":"NodeNext",
+    "esModuleInterop": true,
+    "target": "ES3",
+    "outDir": "dist",
+    "rootDir": "src"
+   }
+}

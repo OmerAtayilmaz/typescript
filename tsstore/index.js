@@ -1,6 +1,9 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 exports.__esModule = true;
-var Product_1 = require("./Product");
+var Product_1 = __importDefault(require("./Product"));
 var fs = require('fs');
 var path = "./trendyol/API/products.json";
 var data = JSON.parse(fs.readFileSync(path, "utf-8"));

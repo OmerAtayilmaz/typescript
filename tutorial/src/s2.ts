@@ -34,3 +34,14 @@ const Person:{
     kanal:"TRT",
     bilmem:"C"
 };
+
+let res=true as boolean|number;
+res=25;
+
+
+
+
+const dizi:string[]=[];//string dizisi
+const dizi2=[] as string[]; // string dizisi
+
+const dizi3:(number|boolean|string)[]=[];

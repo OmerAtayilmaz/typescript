@@ -13,7 +13,10 @@
  target: derlenmesini istediğimiz JS versiyonu
  outDir: çıktı klasörümüz
 */
-exports.__esModule = true;
 // @ts-ignore
 asdsadsad;
+/* typescript kodunu bir satır için ignore eder. */
+//import * as fs from "fs";
 //boyle kullanmamızı saglayan esModuleInterop:true
+//let myname=25; //tip oluşturur
+const test = "25asd"; //tip oluşturmaz

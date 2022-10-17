@@ -1,6 +1,6 @@
 {
    "compilerOptions":{
-    "lib":["ESNext"],
+    "lib":["ESNext","DOM"],
     "strict": true,
     "module":"CommonJS",
     "allowJs": false,

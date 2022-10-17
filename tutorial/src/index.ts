@@ -21,9 +21,9 @@ asdsadsad
 
 
 
-import * as fs from "fs";
+//import * as fs from "fs";
 //boyle kullanmamızı saglayan esModuleInterop:true
 
 
-let myname=25; //tip oluşturur
+//let myname=25; //tip oluşturur
 const test="25asd"; //tip oluşturmaz

@@ -1,4 +1,3 @@
-import { stdout } from "process";
 
 //number dondurecegını belirttik
 function F():number{

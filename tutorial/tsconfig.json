@@ -10,6 +10,9 @@
     "target": "ES6",
     "outDir": "dist",
     "rootDir": "src",
+    "declaration": true,/* tipleri açar */
+    "declarationDir":"dist/types",/* tipleri kaydedecegi dosya */
+    "allowSyntheticDefaultImports": true
     //"noUnusedLocals": true, yoksa her fonksiyonu,parametreyyi vs. kullanmak zorunda kalırız bu yuzden yoruma alındı
     //"noUnusedParameters": true
    }

@@ -18,3 +18,7 @@ export declare type PaymentOption = {
     status: 'valid' | 'invalid' | boolean;
     [options: string]: any;
 };
+export declare const WatchRecord: Record<number, {
+    user: string;
+    pass: string;
+}>;

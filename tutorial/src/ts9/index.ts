@@ -11,10 +11,10 @@ const Human:Omit<AwesomeHuh,'yas'>={
 };
 
 
-
-function print(adsad:{
+/* 
+function print(adasdasdsad:{
     memleket:string,kutuk:string
-}){};
+}){}; */
 
 //type almak
 

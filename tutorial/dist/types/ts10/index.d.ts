@@ -6,9 +6,9 @@ declare const Notificatione: {
 };
 declare function sendNotificiation(notificationType: keyof typeof Notificatione): void;
 declare enum Notificationa {
-    Success = 0,
-    Error = 1,
-    Warning = 2,
-    Information = 3
+    Success = 25,
+    Error = 26,
+    Warning = 27,
+    Information = 28
 }
 declare function sendNotificiationa(notificationType: Notificationa): void;

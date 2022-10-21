@@ -40,3 +40,4 @@ function sendNotificiationa(notificationType:Notificationa){
 }
 
 sendNotificiationa(Notificationa.Information)
+console.log("WATCH MODE");

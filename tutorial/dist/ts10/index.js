@@ -24,13 +24,13 @@ function sendNotificiation(notificationType) {
     }
 }
 sendNotificiation("Warning");
-//enum kullanımı
+//enum kullanımı - her zaman readonly'dir!
 var Notificationa;
 (function (Notificationa) {
-    Notificationa[Notificationa["Success"] = 0] = "Success";
-    Notificationa[Notificationa["Error"] = 1] = "Error";
-    Notificationa[Notificationa["Warning"] = 2] = "Warning";
-    Notificationa[Notificationa["Information"] = 3] = "Information";
+    Notificationa[Notificationa["Success"] = 25] = "Success";
+    Notificationa[Notificationa["Error"] = 26] = "Error";
+    Notificationa[Notificationa["Warning"] = 27] = "Warning";
+    Notificationa[Notificationa["Information"] = 28] = "Information";
 })(Notificationa || (Notificationa = {}));
 function sendNotificiationa(notificationType) {
     switch (notificationType) {
@@ -49,3 +49,4 @@ function sendNotificiationa(notificationType) {
     }
 }
 sendNotificiationa(Notificationa.Information);
+console.log("WATCH MODE");

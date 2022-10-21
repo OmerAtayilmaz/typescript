@@ -63,11 +63,15 @@ const HereItIs:IFun=(text)=>{
     return true;
 };
 
+
 interface IFunction{
     (isim:string,tekrar:number):void;
-    (isim:string,tekrar:number):boolean;
+    (isim:string,text:string):void;
 }
 
 const huhExample:IFunction=(isim,tekrar)=>{
-    return true;
+    
 }
+
+huhExample("adasda","adsdsad");
+huhExample("Omer",25);

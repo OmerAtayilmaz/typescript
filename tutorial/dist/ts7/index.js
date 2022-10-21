@@ -15,5 +15,6 @@ const HereItIs = (text) => {
     return true;
 };
 const huhExample = (isim, tekrar) => {
-    return true;
 };
+huhExample("adasda", "adsdsad");
+huhExample("Omer", 25);

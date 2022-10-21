@@ -26,6 +26,6 @@ interface IFun {
 declare const HereItIs: IFun;
 interface IFunction {
     (isim: string, tekrar: number): void;
-    (isim: string, tekrar: number): boolean;
+    (isim: string, text: string): void;
 }
 declare const huhExample: IFunction;
